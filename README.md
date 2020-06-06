@@ -7,7 +7,6 @@ Developing a scalable server that relies on thread pool and Non-blocking I/O to 
 - To execute the programs you have to go inside the bin folder then execute the the programs as described below:
   - To start the Server:
     - java  cs455.scaling.server.Server  portnum  [thread-pool-size]
-
   - To start a Client:
     - java cs455.scaling.client.Client  server-host  server-port  [message-rate]
 
